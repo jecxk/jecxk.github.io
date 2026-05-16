@@ -5,23 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>Nguyen Trong Bach | Computer Vision &amp; Applied AI Portfolio</title>
-  <meta name="description" content="Portfolio of Nguyen Trong Bach, ICT student at USTH focused on Computer Vision, Applied AI, Medical Image Analysis, Object Detection, OCR, NLP, and AI deployment." />
+  <title>Nguyen Trong Bach — Computer Vision &amp; Applied AI Portfolio</title>
+  <meta name="description" content="Portfolio of Nguyen Trong Bach, ICT student at USTH focused on Computer Vision, Applied AI, Medical Image Analysis, Object Detection, OCR, NLP, and AI deployment. Open to research and internship opportunities." />
   <meta name="author" content="Nguyen Trong Bach" />
-  <meta name="keywords" content="Nguyen Trong Bach, USTH, Computer Vision, Applied AI, Deep Learning, Medical Image Analysis, Object Detection, OCR, NLP, Portfolio, Master 2IS, Toulouse Capitole" />
+  <meta name="keywords" content="Nguyen Trong Bach, USTH, Computer Vision, Applied AI, Deep Learning, Medical Image Analysis, Object Detection, OCR, NLP, Portfolio, Master 2IS, Toulouse Capitole, AI Internship" />
   <meta name="theme-color" content="#0a1929" />
+  <meta name="color-scheme" content="light dark" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nguyen Trong Bach | Computer Vision &amp; Applied AI Portfolio" />
-  <meta property="og:description" content="ICT student at USTH focused on Computer Vision, Applied AI, Medical Image Analysis, Object Detection, OCR, NLP, and AI deployment." />
+  <meta property="og:title" content="Nguyen Trong Bach — Computer Vision &amp; Applied AI Portfolio" />
+  <meta property="og:description" content="ICT student at USTH focused on Computer Vision, Applied AI, Medical Image Analysis, Object Detection, OCR, NLP, and AI deployment. Open to research and internship opportunities." />
   <meta property="og:url" content="https://jecxk.github.io/" />
   <meta property="og:site_name" content="Nguyen Trong Bach Portfolio" />
+  <meta property="og:image" content="https://jecxk.github.io/assets/profile.png" />
+  <meta property="og:image:alt" content="Portrait of Nguyen Trong Bach" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Nguyen Trong Bach | Computer Vision &amp; Applied AI Portfolio" />
+  <meta name="twitter:title" content="Nguyen Trong Bach — Computer Vision &amp; Applied AI Portfolio" />
   <meta name="twitter:description" content="ICT student at USTH focused on Computer Vision, Applied AI, Medical Image Analysis, Object Detection, OCR, NLP, and AI deployment." />
+  <meta name="twitter:image" content="https://jecxk.github.io/assets/profile.png" />
 
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="canonical" href="https://jecxk.github.io/" />
@@ -35,17 +39,19 @@
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <!-- Navigation -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
-      <a href="#hero" class="nav-logo">
+      <a href="#hero" class="nav-logo" aria-label="Nguyen Trong Bach — back to top">
         <span class="logo-mark">
-          <img src="assets/profile.png" alt="Nguyen Trong Bach" />
+          <img src="assets/profile.png" alt="" />
         </span>
         <span class="logo-text">Nguyen Trong Bach</span>
       </a>
 
-      <nav class="nav-links" id="navLinks">
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#masters">Master&rsquo;s</a>
@@ -58,595 +64,942 @@
         <a href="assets/Nguyen_Trong_Bach_CV.pdf" class="nav-cv" download>Download CV</a>
       </nav>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
-    <div class="container hero-container">
-      <div class="hero-content">
-        <p class="hero-eyebrow">Hello, I&rsquo;m Nguyen Trong Bach</p>
-        <h1 class="hero-title">
-          Computer Vision &amp; <span class="accent">Applied AI</span> Student
-        </h1>
-        <p class="hero-subtitle">
-          I am an ICT undergraduate student at the University of Science and Technology of Hanoi,
-          focused on Computer Vision, Deep Learning, Medical Image Analysis, Object Detection,
-          OCR, NLP, and practical AI deployment.
-        </p>
+  <main id="main">
 
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="#cv" class="btn btn-ghost">View CV</a>
-          <a href="https://github.com/jecxk" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">View GitHub</a>
-          <a href="assets/Nguyen_Trong_Bach_CV.pdf" class="btn btn-ghost" download>Download CV</a>
-          <a href="#contact" class="btn btn-ghost">Contact Me</a>
-        </div>
-
-        <div class="hero-meta">
-          <span><strong>USTH</strong> &middot; B.Sc. ICT</span>
-          <span class="dot"></span>
-          <span>Expected graduation <strong>Aug 2026</strong></span>
-          <span class="dot"></span>
-          <span>Hanoi, Vietnam</span>
-        </div>
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
       </div>
 
-    </div>
-  </section>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to AI / Computer Vision internships &amp; research roles
+          </p>
 
-  <!-- About -->
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-eyebrow">01 &mdash; About</p>
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I am an ICT undergraduate student at the University of Science and Technology of Hanoi
-            (USTH) with a strong focus on Computer Vision and Applied AI. My work centers on building
-            complete AI pipelines, from data preprocessing and model training to evaluation,
-            explainability, and demo deployment.
+          <h1 class="hero-title">
+            Computer Vision &amp;<br />
+            <span class="accent-gradient">Applied AI</span> Student
+          </h1>
+
+          <p class="hero-subtitle">
+            I am Nguyen Trong Bach, an ICT undergraduate at the
+            <strong>University of Science and Technology of Hanoi</strong>. I build complete AI
+            pipelines &mdash; from data preprocessing and model training to evaluation,
+            explainability, and demo deployment &mdash; with a focus on Computer Vision, Medical
+            Image Analysis, OCR, and Applied NLP.
           </p>
-          <p>
-            I am particularly interested in medical image analysis, object detection, video
-            understanding, document AI, and robust real-world AI systems. I enjoy taking a project from
-            an open dataset all the way to a working interface that a non-technical user can actually
-            try, including model export, lightweight backends, and mobile demonstration.
-          </p>
-          <p>
-            I am preparing to continue my academic path through the <strong>Master 2IS program at
-            Toulouse Capitole 1 University</strong>, where I aim to deepen my expertise in information
-            systems and applied AI for real-world digital solutions.
-          </p>
+
+          <div class="hero-badges" role="list">
+            <span class="badge-chip" role="listitem">USTH &middot; B.Sc. ICT</span>
+            <span class="badge-chip" role="listitem">AI / Computer Vision</span>
+            <span class="badge-chip badge-chip-accent" role="listitem">Open to Internship</span>
+            <span class="badge-chip" role="listitem">Master 2IS Direction</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="assets/Nguyen_Trong_Bach_CV.pdf" class="btn btn-secondary" download>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Download CV
+            </a>
+            <a href="#cv" class="btn btn-ghost">View CV</a>
+            <a href="https://github.com/jecxk" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
         </div>
 
-        <aside class="about-card">
-          <h3>Quick facts</h3>
-          <ul class="facts">
-            <li><span>University</span><strong>USTH, Hanoi</strong></li>
-            <li><span>Degree</span><strong>B.Sc. ICT</strong></li>
-            <li><span>Graduation</span><strong>Aug 2026 (expected)</strong></li>
-            <li><span>GPA</span><strong>13.19 / 20</strong></li>
-            <li><span>English</span><strong>IELTS 6.5</strong></li>
-            <li><span>Focus</span><strong>CV, Deep Learning, OCR, NLP</strong></li>
-            <li><span>Location</span><strong>Hanoi, Vietnam</strong></li>
-          </ul>
+        <aside class="hero-card" aria-label="Quick facts">
+          <div class="hero-card-head">
+            <span class="hero-card-eyebrow">Quick Facts</span>
+            <span class="hero-card-status" title="Currently a final-year student">
+              <span class="status-dot" aria-hidden="true"></span> Active
+            </span>
+          </div>
+
+          <dl class="hero-facts">
+            <div class="hero-fact">
+              <dt>University</dt>
+              <dd>USTH &middot; B.Sc. ICT</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>Expected Graduation</dt>
+              <dd>August 2026</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>GPA</dt>
+              <dd>13.19 / 20</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>English</dt>
+              <dd>IELTS 6.5</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>Next Step</dt>
+              <dd>Master 2IS &mdash; Toulouse Capitole 1</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>Location</dt>
+              <dd>Hanoi, Vietnam</dd>
+            </div>
+          </dl>
         </aside>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education -->
-  <section class="section section-alt" id="education">
-    <div class="container">
-      <p class="section-eyebrow">02 &mdash; Education</p>
-      <h2 class="section-title">Education</h2>
+    <!-- About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="section-eyebrow">01 &mdash; About</p>
+        <h2 class="section-title" id="about-title">About Me</h2>
 
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>B.Sc. in Information and Communication Technology</h3>
-              <span class="timeline-date">Dec 2023 &ndash; Aug 2026 (expected)</span>
-            </div>
-            <p class="timeline-sub">University of Science and Technology of Hanoi (USTH)</p>
-            <p class="timeline-meta">GPA: <strong>13.19 / 20</strong> &middot; English: IELTS 6.5</p>
+        <div class="about-grid">
+          <div class="about-text">
             <p>
-              Coursework spans the full software and AI stack: from algorithms and systems, to
-              statistics, to modern deep learning. My academic project work is concentrated in
-              Computer Vision, NLP, and applied AI pipelines.
+              I am an ICT undergraduate at the University of Science and Technology of Hanoi
+              (USTH) with a strong focus on <strong>Computer Vision</strong> and
+              <strong>Applied AI</strong>. My work centers on building complete AI pipelines,
+              from data preprocessing and model training to evaluation, explainability, and
+              demo deployment.
+            </p>
+            <p>
+              I am particularly interested in <strong>medical image analysis</strong>,
+              <strong>object detection</strong>, <strong>video understanding</strong>,
+              <strong>document AI</strong>, and robust real-world AI systems. I enjoy taking a
+              project from an open dataset all the way to a working interface that a non-technical
+              user can try &mdash; including model export, lightweight backends, and mobile
+              demonstration.
+            </p>
+            <p>
+              I am preparing to continue my academic path through the
+              <strong>Master 2IS program at Toulouse Capitole 1 University</strong>, where I aim to
+              deepen my expertise in information systems and applied AI for real-world digital
+              solutions.
             </p>
           </div>
-        </article>
-      </div>
-    </div>
-  </section>
 
-  <!-- Future Master's Direction -->
-  <section class="section" id="masters">
-    <div class="container">
-      <p class="section-eyebrow">03 &mdash; Next Step</p>
-      <h2 class="section-title">Future Master&rsquo;s Direction</h2>
+          <div class="about-cards">
+            <article class="about-mini-card">
+              <div class="about-mini-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg>
+              </div>
+              <h3>End-to-end AI pipelines</h3>
+              <p>Data preprocessing, training, evaluation, explainability, and demo deployment.</p>
+            </article>
 
-      <div class="masters-card">
-        <div class="masters-head">
-          <h3>Master 2IS &mdash; Toulouse Capitole 1 University</h3>
-          <span class="badge">Target Program</span>
+            <article class="about-mini-card">
+              <div class="about-mini-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v6c0 5 4 9 9 10 5-1 9-5 9-10V7l-9-5z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <h3>Practical, deployment-aware</h3>
+              <p>FastAPI / Streamlit / Gradio / ONNX export &mdash; from notebook to real interface.</p>
+            </article>
+
+            <article class="about-mini-card">
+              <div class="about-mini-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20l9-15H3z"/><path d="M9 14l3 3 3-3"/></svg>
+              </div>
+              <h3>Research-oriented mindset</h3>
+              <p>Comparative experiments, ablations, metrics, confusion matrices, Grad-CAM.</p>
+            </article>
+          </div>
         </div>
-        <p>
-          I am preparing to continue my graduate studies in the <strong>Master 2IS (Information
-          Systems and Software Engineering)</strong> program at Toulouse Capitole 1 University. The
-          program aligns closely with my interests in information systems, applied AI, software
-          systems, data-driven applications, and intelligent digital solutions.
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <p class="section-eyebrow">02 &mdash; Education</p>
+        <h2 class="section-title" id="education-title">Education</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <div class="timeline-head">
+                <h3>B.Sc. in Information and Communication Technology</h3>
+                <span class="timeline-date">Dec 2023 &ndash; Aug 2026 (expected)</span>
+              </div>
+              <p class="timeline-sub">University of Science and Technology of Hanoi (USTH)</p>
+
+              <div class="edu-stats">
+                <div class="edu-stat">
+                  <span class="edu-stat-value">13.19<small> / 20</small></span>
+                  <span class="edu-stat-label">GPA</span>
+                </div>
+                <div class="edu-stat">
+                  <span class="edu-stat-value">6.5</span>
+                  <span class="edu-stat-label">IELTS</span>
+                </div>
+                <div class="edu-stat">
+                  <span class="edu-stat-value">Aug 2026</span>
+                  <span class="edu-stat-label">Expected Graduation</span>
+                </div>
+              </div>
+
+              <p>
+                Coursework spans the full software and AI stack: algorithms, systems, statistics,
+                and modern deep learning. My academic project work is concentrated in Computer
+                Vision, NLP, and applied AI pipelines.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Master's Direction -->
+    <section class="section" id="masters" aria-labelledby="masters-title">
+      <div class="container">
+        <p class="section-eyebrow">03 &mdash; Next Step</p>
+        <h2 class="section-title" id="masters-title">Future Master&rsquo;s Direction</h2>
+
+        <div class="masters-card">
+          <div class="masters-glow" aria-hidden="true"></div>
+          <div class="masters-head">
+            <div>
+              <span class="masters-tag">Target Program &middot; 2026 Intake</span>
+              <h3>Master 2IS &mdash; Toulouse Capitole 1 University</h3>
+            </div>
+          </div>
+          <p>
+            I am preparing to continue my graduate studies in the
+            <strong>Master 2IS (Information Systems &amp; Software Engineering)</strong> program at
+            Toulouse Capitole 1 University. The program aligns closely with my interests in
+            information systems, applied AI, software systems, data-driven applications, and
+            intelligent digital solutions.
+          </p>
+          <p>
+            My goal is to strengthen my foundations in software engineering and information systems
+            while continuing to specialize in computer vision and applied AI, contributing to
+            research and industrial projects that bring AI from prototypes into reliable,
+            deployable systems.
+          </p>
+          <ul class="masters-tags">
+            <li>Information Systems</li>
+            <li>Software Engineering</li>
+            <li>Applied AI</li>
+            <li>Data-Driven Applications</li>
+            <li>Intelligent Digital Solutions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section section-alt" id="interests" aria-labelledby="interests-title">
+      <div class="container">
+        <p class="section-eyebrow">04 &mdash; Research</p>
+        <h2 class="section-title" id="interests-title">Research Interests</h2>
+
+        <div class="interests-grid">
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg>
+            </div>
+            <h3>Computer Vision</h3>
+            <p>Image classification, detection, segmentation, and visual recognition.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg>
+            </div>
+            <h3>Medical Image Analysis</h3>
+            <p>Dermoscopy, diagnostic classification, and explainable medical AI.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="12" r="2" fill="currentColor"/></svg>
+            </div>
+            <h3>Object Detection</h3>
+            <p>YOLO-family models, real-time inference, and bounding-box pipelines.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg>
+            </div>
+            <h3>Video Understanding</h3>
+            <p>Temporal models, action recognition, and pose-based pipelines.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="1.8"/><circle cx="5" cy="18" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="6" r="1.8"/><circle cx="19" cy="18" r="1.8"/><path d="M6.5 7l4 4M6.5 17l4-4M13.5 11l4-4M13.5 13l4 4"/></svg>
+            </div>
+            <h3>Deep Learning</h3>
+            <p>CNNs, Transformers, fine-tuning, and architecture comparison.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            </div>
+            <h3>Efficient Real-time Inference</h3>
+            <p>Model export, ONNX conversion, and lightweight deployment.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v6c0 1.7 4 3 9 3s9-1.3 9-3V5M3 11v6c0 1.7 4 3 9 3s9-1.3 9-3v-6"/></svg>
+            </div>
+            <h3>Data-centric AI</h3>
+            <p>Data curation, class imbalance, augmentation, and quality auditing.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3>Model Robustness &amp; Interpretability</h3>
+            <p>Grad-CAM, error analysis, and reliability under distribution shift.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8M8 9h2"/></svg>
+            </div>
+            <h3>OCR &amp; Document Understanding</h3>
+            <p>Receipt parsing, layout-aware models, and end-to-end document AI.</p>
+          </article>
+
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+            </div>
+            <h3>Applied NLP</h3>
+            <p>Transformer-based NER, information extraction, and inference workflows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="section-eyebrow">05 &mdash; Skills</p>
+        <h2 class="section-title" id="skills-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+              </div>
+              <h3>Programming</h3>
+            </header>
+            <ul class="tag-list">
+              <li>Python</li><li>C / C++</li><li>Java</li>
+              <li>JavaScript / TypeScript</li><li>SQL</li><li>LaTeX</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="1.8"/><circle cx="5" cy="18" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="6" r="1.8"/><circle cx="19" cy="18" r="1.8"/><path d="M6.5 7l4 4M6.5 17l4-4M13.5 11l4-4M13.5 13l4 4"/></svg>
+              </div>
+              <h3>Machine Learning &amp; Deep Learning</h3>
+            </header>
+            <ul class="tag-list">
+              <li>PyTorch</li><li>torchvision</li><li>scikit-learn</li>
+              <li>HuggingFace Transformers</li><li>NumPy</li><li>Pandas</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg>
+              </div>
+              <h3>Computer Vision</h3>
+            </header>
+            <ul class="tag-list">
+              <li>OpenCV</li><li>Ultralytics YOLO11</li>
+              <li>Grad-CAM</li><li>Image / Video Preprocessing</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+              </div>
+              <h3>NLP &amp; Document AI</h3>
+            </header>
+            <ul class="tag-list">
+              <li>BERT</li><li>DistilBERT</li><li>RoBERTa</li>
+              <li>PaddleOCR</li><li>LayoutLMv3</li><li>DONUT</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="8" rx="2"/><rect x="2" y="13" width="20" height="8" rx="2"/><path d="M6 7h.01M6 17h.01"/></svg>
+              </div>
+              <h3>Deployment</h3>
+            </header>
+            <ul class="tag-list">
+              <li>FastAPI</li><li>Streamlit</li><li>Gradio</li>
+              <li>ONNX</li><li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <header class="skill-card-head">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="12" r="2"/><path d="M6 8v8M6 12h8a4 4 0 0 0 4-4"/></svg>
+              </div>
+              <h3>Development Workflow</h3>
+            </header>
+            <ul class="tag-list">
+              <li>Git</li><li>Jupyter / Colab</li>
+              <li>Android Studio</li><li>VS Code</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="section-eyebrow">06 &mdash; Work</p>
+        <h2 class="section-title" id="projects-title">Featured Projects</h2>
+        <p class="section-intro">
+          Seven selected projects across Computer Vision, Medical AI, Document AI, NLP, Security,
+          and Mobile &mdash; each shipped with code, evaluation, and (where relevant) a working demo.
         </p>
-        <p>
-          My goal is to strengthen my foundations in software engineering and information systems
-          while continuing to specialize in computer vision and applied AI, so that I can contribute
-          to research and industrial projects that bring AI from prototypes into reliable, deployable
-          systems.
-        </p>
-        <ul class="masters-tags">
-          <li>Information Systems</li>
-          <li>Software Engineering</li>
-          <li>Applied AI</li>
-          <li>Data-Driven Applications</li>
-          <li>Intelligent Digital Solutions</li>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-chip" data-filter="cv" role="tab" aria-selected="false">Computer Vision</button>
+          <button class="filter-chip" data-filter="medical" role="tab" aria-selected="false">Medical AI</button>
+          <button class="filter-chip" data-filter="document" role="tab" aria-selected="false">Document AI</button>
+          <button class="filter-chip" data-filter="nlp" role="tab" aria-selected="false">NLP</button>
+          <button class="filter-chip" data-filter="security" role="tab" aria-selected="false">Security</button>
+          <button class="filter-chip" data-filter="mobile" role="tab" aria-selected="false">Mobile</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- Project 1: Skin Lesion -->
+          <article class="project-card" data-category="cv medical">
+            <div class="project-head">
+              <span class="project-tag">B.Sc. Thesis &middot; Medical AI</span>
+              <h3>Skin Lesion Classification</h3>
+            </div>
+            <p class="project-desc">
+              A thesis-level deep learning project for 7-class dermoscopic skin lesion
+              classification using public datasets (HAM10000, ISIC 2018). Compares CNN and
+              Transformer backbones, addresses class imbalance, and includes evaluation,
+              confusion-matrix analysis, prediction export, and Grad-CAM explainability.
+            </p>
+
+            <div class="project-metrics">
+              <div class="metric">
+                <span class="metric-value">88.4<small>%</small></span>
+                <span class="metric-label">Best single-model accuracy</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">0.831</span>
+                <span class="metric-label">Macro F1</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">0.980</span>
+                <span class="metric-label">Ensemble AUC</span>
+              </div>
+            </div>
+
+            <ul class="project-highlights">
+              <li>Backbones: ResNet50, DenseNet121, EfficientNet-B0, Swin-Tiny</li>
+              <li>Loss: cross-entropy, weighted CE, focal loss</li>
+              <li>Grad-CAM explainability + Streamlit / Gradio demo</li>
+              <li>Designed for local RTX training with Colab fallback</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>PyTorch</li><li>EfficientNet-B0</li><li>ResNet-50</li>
+              <li>DenseNet-121</li><li>Swin-Tiny</li><li>Grad-CAM</li>
+              <li>Streamlit</li><li>Gradio</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/Thesis_project_skin" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Figure Skating -->
+          <article class="project-card" data-category="cv">
+            <div class="project-head">
+              <span class="project-tag">Video &amp; Pose &middot; Computer Vision</span>
+              <h3>Figure Skating Action Recognition</h3>
+            </div>
+            <p class="project-desc">
+              A data-first action-recognition project for figure skating elements, exploring both
+              pose-based and video-based approaches. Includes 3D skeleton sequences, temporal
+              modeling, video clip preprocessing, manifest building, and baseline evaluation.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Data sources: FS-Jump3D, FSD-10, FineFS (planned / referenced)</li>
+              <li>Pose-based and lightweight video-based baselines</li>
+              <li>End-to-end preprocessing, tensor conversion, training, testing scripts</li>
+              <li>Pose baseline currently outperforms the lightweight video baseline</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>PyTorch</li><li>3D Pose TCN</li>
+              <li>Video CNN</li><li>Teacher-Student Learning</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/FIGURE_SKATING_JUMPS" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Smoking Detection -->
+          <article class="project-card" data-category="cv mobile">
+            <div class="project-head">
+              <span class="project-tag">Object Detection &middot; Mobile</span>
+              <h3>Smoking Detection System</h3>
+            </div>
+            <p class="project-desc">
+              A practical computer-vision system for detecting smoking-related visual cues in
+              images, video, and live camera streams. Covers YOLO training, video inference, ONNX
+              export, and an Android application for user-facing demonstration.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Fine-tuned YOLO11 for cigarette, cigar, and smoke classes</li>
+              <li>Single image, video file, and webcam / live camera inference</li>
+              <li>Model export to ONNX for future mobile deployment</li>
+              <li>Android prototype built in Java with Android Studio</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>Ultralytics YOLO11</li><li>OpenCV</li>
+              <li>FastAPI</li><li>Android Studio</li><li>Java</li><li>ONNX</li>
+            </ul>
+
+            <div class="project-actions project-actions-multi">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/SmokeDetectionApp" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                Android App
+              </a>
+              <a class="btn btn-small" href="https://github.com/jecxk/GROUP_PROJECT" target="_blank" rel="noopener noreferrer">YOLO Project</a>
+              <a class="btn btn-small" href="https://github.com/jecxk/GROUP_PROJECT_V2" target="_blank" rel="noopener noreferrer">Improved Version</a>
+            </div>
+          </article>
+
+          <!-- Project 4: SROIE -->
+          <article class="project-card" data-category="document nlp">
+            <div class="project-head">
+              <span class="project-tag">Document AI &middot; OCR</span>
+              <h3>SROIE Receipt OCR &amp; Information Extraction</h3>
+            </div>
+            <p class="project-desc">
+              A document-AI project for OCR and key information extraction from receipt images.
+              Compares OCR-driven rule-based extraction, LayoutLMv3 token classification, and
+              DONUT-style end-to-end document parsing for structured field extraction.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Full receipt understanding pipeline</li>
+              <li>OCR preprocessing and text-box extraction</li>
+              <li>Layout-aware information extraction</li>
+              <li>End-to-end document parsing exploration</li>
+              <li>Field-level evaluation: accuracy, F1, normalized edit distance</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>Jupyter</li><li>PaddleOCR</li>
+              <li>LayoutLMv3</li><li>DONUT</li><li>Rule-based IE</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/sroie-ocr-ie_" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: NLP -->
+          <article class="project-card" data-category="nlp">
+            <div class="project-head">
+              <span class="project-tag">NLP &middot; Named Entity Recognition</span>
+              <h3>IT Job Description Entity Extraction</h3>
+            </div>
+            <p class="project-desc">
+              A Transformer-based named-entity-recognition project for extracting structured
+              information from unstructured IT job descriptions &mdash; role, skill, location,
+              experience, salary &mdash; with an inference workflow exposed through a FastAPI backend.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Compares BERT, DistilBERT, and RoBERTa backbones</li>
+              <li>Extracts career-related structured entities</li>
+              <li>FastAPI-based inference workflow</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>HuggingFace Transformers</li>
+              <li>BERT</li><li>DistilBERT</li><li>RoBERTa</li><li>FastAPI</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/NLP_code" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: Crypto -->
+          <article class="project-card" data-category="security">
+            <div class="project-head">
+              <span class="project-tag">Security &middot; Cryptography</span>
+              <h3>Secure Online Banking Session</h3>
+            </div>
+            <p class="project-desc">
+              A security-focused prototype demonstrating secure online banking sessions: TLS 1.3
+              communication, password hashing, session protection, CSRF protection, and encrypted
+              traffic verification with Wireshark.
+            </p>
+
+            <ul class="project-highlights">
+              <li>TLS 1.3 communication</li>
+              <li>bcrypt password hashing</li>
+              <li>HttpOnly cookie-based sessions</li>
+              <li>CSRF protection</li>
+              <li>Wireshark verification of encrypted traffic</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Python</li><li>FastAPI</li><li>OpenSSL</li>
+              <li>bcrypt</li><li>Wireshark</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/Crytography-mid-project" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 7: Mobile -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-head">
+              <span class="project-tag">Mobile &middot; Android</span>
+              <h3>Mobile Application Final Project</h3>
+            </div>
+            <p class="project-desc">
+              An Android application focused on practical mobile UI implementation, activity
+              management, data handling, and app structure in Java using Android Studio.
+            </p>
+
+            <ul class="project-highlights">
+              <li>UI design and activity lifecycle handling</li>
+              <li>Data handling and structured app architecture</li>
+              <li>API integration</li>
+            </ul>
+
+            <ul class="tag-list">
+              <li>Java</li><li>Android Studio</li>
+              <li>UI Design</li><li>API Integration</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-small btn-small-primary" href="https://github.com/jecxk/mobile-app-final" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="projects-empty" id="projectsEmpty" hidden>No projects in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- Selected Coursework -->
+    <section class="section" id="coursework" aria-labelledby="coursework-title">
+      <div class="container">
+        <p class="section-eyebrow">07 &mdash; Coursework</p>
+        <h2 class="section-title" id="coursework-title">Selected Coursework</h2>
+        <ul class="coursework-grid">
+          <li>Machine Learning</li>
+          <li>Deep Learning</li>
+          <li>Digital Image Processing</li>
+          <li>Natural Language Processing</li>
+          <li>Probability and Statistics</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Object-Oriented Programming</li>
+          <li>Distributed Systems</li>
+          <li>Computer Networks</li>
+          <li>Cryptography</li>
+          <li>Database Systems</li>
+          <li>Mobile Programming</li>
         </ul>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Research Interests -->
-  <section class="section section-alt" id="interests">
-    <div class="container">
-      <p class="section-eyebrow">04 &mdash; Research</p>
-      <h2 class="section-title">Research Interests</h2>
+    <!-- Experience -->
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <p class="section-eyebrow">08 &mdash; Experience</p>
+        <h2 class="section-title" id="experience-title">Experience</h2>
 
-      <div class="interests-grid">
-        <div class="interest"><span class="interest-num">01</span><h3>Computer Vision</h3></div>
-        <div class="interest"><span class="interest-num">02</span><h3>Medical Image Analysis</h3></div>
-        <div class="interest"><span class="interest-num">03</span><h3>Object Detection</h3></div>
-        <div class="interest"><span class="interest-num">04</span><h3>Video Understanding</h3></div>
-        <div class="interest"><span class="interest-num">05</span><h3>Deep Learning</h3></div>
-        <div class="interest"><span class="interest-num">06</span><h3>Efficient Real-time Inference</h3></div>
-        <div class="interest"><span class="interest-num">07</span><h3>Data-centric AI</h3></div>
-        <div class="interest"><span class="interest-num">08</span><h3>Model Robustness &amp; Interpretability</h3></div>
-        <div class="interest"><span class="interest-num">09</span><h3>OCR &amp; Document Understanding</h3></div>
-        <div class="interest"><span class="interest-num">10</span><h3>Applied NLP</h3></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technical Skills -->
-  <section class="section" id="skills">
-    <div class="container">
-      <p class="section-eyebrow">05 &mdash; Skills</p>
-      <h2 class="section-title">Technical Skills</h2>
-
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Programming</h3>
-          <ul class="tag-list">
-            <li>Python</li><li>C / C++</li><li>Java</li>
-            <li>JavaScript / TypeScript</li><li>SQL</li><li>LaTeX</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Machine Learning &amp; Deep Learning</h3>
-          <ul class="tag-list">
-            <li>PyTorch</li><li>torchvision</li><li>scikit-learn</li>
-            <li>HuggingFace Transformers</li><li>NumPy</li><li>Pandas</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Computer Vision</h3>
-          <ul class="tag-list">
-            <li>OpenCV</li><li>Ultralytics YOLO</li><li>Grad-CAM</li>
-            <li>Image / Video Preprocessing</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Deployment &amp; Tools</h3>
-          <ul class="tag-list">
-            <li>FastAPI</li><li>Streamlit</li><li>Gradio</li>
-            <li>Git</li><li>Docker</li><li>Jupyter / Colab</li>
-            <li>Android Studio</li><li>VS Code</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="section section-alt" id="projects">
-    <div class="container">
-      <p class="section-eyebrow">06 &mdash; Work</p>
-      <h2 class="section-title">Featured Projects</h2>
-
-      <div class="projects-grid">
-
-        <!-- Project 1: Skin Lesion -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">B.Sc. Thesis</span>
-            <h3>Skin Lesion Classification</h3>
-          </div>
-          <p class="project-desc">
-            A thesis-level deep learning project for 7-class dermoscopic skin lesion classification
-            using public datasets (HAM10000, ISIC 2018). Compares CNN and Transformer backbones,
-            addresses class imbalance, and includes evaluation, confusion-matrix analysis, prediction
-            export, and Grad-CAM explainability.
-          </p>
-          <ul class="project-highlights">
-            <li>Backbones: ResNet50, DenseNet121, EfficientNet-B0, Swin-Tiny</li>
-            <li>Loss: cross-entropy, weighted CE, focal loss</li>
-            <li>Best single-model ~ <strong>88.4% accuracy</strong>, <strong>0.831 macro F1</strong></li>
-            <li>Ensemble ~ <strong>89.5% accuracy</strong>, <strong>AUC ~ 0.980</strong></li>
-            <li>Designed for local RTX training with Colab fallback</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>PyTorch</li><li>EfficientNet-B0</li><li>ResNet-50</li>
-            <li>DenseNet-121</li><li>Swin-Tiny</li><li>Grad-CAM</li>
-            <li>Streamlit</li><li>Gradio</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/Thesis_project_skin" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 2: Figure Skating -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">Video &amp; Pose</span>
-            <h3>Figure Skating Action Recognition</h3>
-          </div>
-          <p class="project-desc">
-            A data-first action-recognition project for figure skating elements, exploring both
-            pose-based and video-based approaches. Includes 3D skeleton sequences, temporal modeling,
-            video clip preprocessing, manifest building, and baseline evaluation.
-          </p>
-          <ul class="project-highlights">
-            <li>Data sources: FS-Jump3D, FSD-10, FineFS (planned / referenced)</li>
-            <li>Pose-based and lightweight video-based baselines</li>
-            <li>End-to-end preprocessing, tensor conversion, training, testing scripts</li>
-            <li>Pose baseline currently outperforms lightweight video baseline</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>PyTorch</li><li>3D Pose TCN</li>
-            <li>Video CNN</li><li>Teacher-Student Learning</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/FIGURE_SKATING_JUMPS" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 3: Smoking Detection -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">Object Detection</span>
-            <h3>Smoking Detection System</h3>
-          </div>
-          <p class="project-desc">
-            A practical computer-vision system for detecting smoking-related visual cues in images,
-            video, and live camera streams. Covers YOLO training, video inference, ONNX export, and
-            an Android application for user-facing demonstration.
-          </p>
-          <ul class="project-highlights">
-            <li>Fine-tuned YOLO11 model for cigarette, cigar, and smoke classes</li>
-            <li>Single image, video file, and webcam / live camera inference</li>
-            <li>Model export to ONNX for future mobile deployment</li>
-            <li>Android prototype built in Java with Android Studio</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>Ultralytics YOLO11</li><li>OpenCV</li>
-            <li>FastAPI</li><li>Android Studio</li><li>Java</li><li>ONNX</li>
-          </ul>
-          <div class="project-actions project-actions-multi">
-            <a class="btn btn-small" href="https://github.com/jecxk/SmokeDetectionApp" target="_blank" rel="noopener noreferrer">Android App</a>
-            <a class="btn btn-small" href="https://github.com/jecxk/GROUP_PROJECT" target="_blank" rel="noopener noreferrer">YOLO Project</a>
-            <a class="btn btn-small" href="https://github.com/jecxk/GROUP_PROJECT_V2" target="_blank" rel="noopener noreferrer">Improved Version</a>
-          </div>
-        </article>
-
-        <!-- Project 4: SROIE -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">Document AI</span>
-            <h3>SROIE Receipt OCR &amp; Information Extraction</h3>
-          </div>
-          <p class="project-desc">
-            A document-AI project for OCR and key information extraction from receipt images.
-            Compares OCR-driven rule-based extraction, LayoutLMv3 token classification, and DONUT-style
-            end-to-end document parsing for structured field extraction.
-          </p>
-          <ul class="project-highlights">
-            <li>Full receipt understanding pipeline</li>
-            <li>OCR preprocessing and text-box extraction</li>
-            <li>Layout-aware information extraction</li>
-            <li>End-to-end document parsing exploration</li>
-            <li>Field-level evaluation: accuracy, F1, normalized edit distance</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>Jupyter</li><li>PaddleOCR</li>
-            <li>LayoutLMv3</li><li>DONUT</li><li>Rule-based IE</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/sroie-ocr-ie_" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 5: NLP -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">NLP</span>
-            <h3>IT Job Description Entity Extraction</h3>
-          </div>
-          <p class="project-desc">
-            A Transformer-based named-entity-recognition project for extracting structured
-            information from unstructured IT job descriptions &mdash; role, skill, location,
-            experience, salary &mdash; with an inference workflow exposed through a FastAPI backend.
-          </p>
-          <ul class="project-highlights">
-            <li>Compares BERT, DistilBERT, and RoBERTa backbones</li>
-            <li>Extracts career-related structured entities</li>
-            <li>FastAPI-based inference workflow</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>HuggingFace Transformers</li>
-            <li>BERT</li><li>DistilBERT</li><li>RoBERTa</li><li>FastAPI</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/NLP_code" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 6: Crypto -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">Security</span>
-            <h3>Secure Online Banking Session</h3>
-          </div>
-          <p class="project-desc">
-            A security-focused prototype demonstrating secure online banking sessions: TLS 1.3
-            communication, password hashing, session protection, CSRF protection, and encrypted
-            traffic verification with Wireshark.
-          </p>
-          <ul class="project-highlights">
-            <li>TLS 1.3 communication</li>
-            <li>bcrypt password hashing</li>
-            <li>HttpOnly cookie-based sessions</li>
-            <li>CSRF protection</li>
-            <li>Wireshark verification of encrypted traffic</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Python</li><li>FastAPI</li><li>OpenSSL</li>
-            <li>bcrypt</li><li>Wireshark</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/Crytography-mid-project" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- Project 7: Mobile -->
-        <article class="project-card">
-          <div class="project-head">
-            <span class="project-tag">Mobile</span>
-            <h3>Mobile Application Final Project</h3>
-          </div>
-          <p class="project-desc">
-            An Android application focused on practical mobile UI implementation, activity
-            management, data handling, and app structure in Java using Android Studio.
-          </p>
-          <ul class="project-highlights">
-            <li>UI design and activity lifecycle handling</li>
-            <li>Data handling and structured app architecture</li>
-            <li>API integration</li>
-          </ul>
-          <ul class="tag-list">
-            <li>Java</li><li>Android Studio</li>
-            <li>UI Design</li><li>API Integration</li>
-          </ul>
-          <div class="project-actions">
-            <a class="btn btn-small" href="https://github.com/jecxk/mobile-app-final" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Selected Coursework -->
-  <section class="section" id="coursework">
-    <div class="container">
-      <p class="section-eyebrow">07 &mdash; Coursework</p>
-      <h2 class="section-title">Selected Coursework</h2>
-      <ul class="coursework-grid">
-        <li>Machine Learning</li>
-        <li>Deep Learning</li>
-        <li>Digital Image Processing</li>
-        <li>Natural Language Processing</li>
-        <li>Probability and Statistics</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Object-Oriented Programming</li>
-        <li>Distributed Systems</li>
-        <li>Computer Networks</li>
-        <li>Cryptography</li>
-        <li>Database Systems</li>
-        <li>Mobile Programming</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="section section-alt" id="experience">
-    <div class="container">
-      <p class="section-eyebrow">08 &mdash; Experience</p>
-      <h2 class="section-title">Experience</h2>
-
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>IT Intern &mdash; FUJILOGIC Technology Co., Ltd.</h3>
-              <span class="timeline-date">Oct 2025 &ndash; Present &middot; Hanoi, Vietnam</span>
-            </div>
-            <p>
-              Delivered front-line technical support for software configuration, troubleshooting,
-              routine maintenance, internal engineering workflows, environment setup, and technical
-              documentation.
-            </p>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>IT Intern &mdash; C+ Technology JSC</h3>
-              <span class="timeline-date">Feb 2025 &ndash; Aug 2025 &middot; Hanoi, Vietnam</span>
-            </div>
-            <p>
-              Supported IT operations, software deployment, environment configuration, integration
-              testing, issue reproduction and resolution, documentation, and team communication in a
-              professional software environment.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Activities -->
-  <section class="section" id="activities">
-    <div class="container">
-      <p class="section-eyebrow">09 &mdash; Activities</p>
-      <h2 class="section-title">Activities</h2>
-
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>USTH Coders Club &mdash; Marketing Team (Content &amp; Design)</h3>
-              <span class="timeline-date">Oct 2023 &ndash; Jun 2025</span>
-            </div>
-            <p>
-              Produced promotional content and visual materials for programming-related activities,
-              completed internal coding workshop activities, and collaborated closely with student
-              organizers to support club operations.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Curriculum Vitae -->
-  <section class="section" id="cv">
-    <div class="container">
-      <p class="section-eyebrow">10 &mdash; Curriculum Vitae</p>
-      <h2 class="section-title">View My CV</h2>
-
-      <div class="cv-grid">
-        <aside class="cv-side">
-          <h3>Curriculum Vitae</h3>
-          <p>
-            View my full CV directly in your browser, or download a copy for offline reference. The
-            CV covers my education, work experience, research projects, technical skills, and
-            selected coursework.
-          </p>
-          <ul class="cv-meta">
-            <li><span>Owner</span><strong>Nguyen Trong Bach</strong></li>
-            <li><span>Focus</span><strong>Computer Vision &amp; Applied AI</strong></li>
-            <li><span>Format</span><strong>PDF</strong></li>
-            <li><span>Last updated</span><strong>April 2026</strong></li>
-          </ul>
-          <div class="cv-actions">
-            <a class="btn btn-primary" href="assets/Nguyen_Trong_Bach_CV.pdf" download>
-              Download CV (PDF)
-            </a>
-            <a class="btn btn-ghost" href="assets/Nguyen_Trong_Bach_CV.pdf" target="_blank" rel="noopener noreferrer">
-              Open in New Tab
-            </a>
-          </div>
-        </aside>
-
-        <div class="cv-viewer">
-          <div class="cv-viewer-frame">
-            <object data="assets/Nguyen_Trong_Bach_CV.pdf#view=FitH" type="application/pdf" aria-label="Nguyen Trong Bach CV preview">
-              <div class="cv-fallback">
-                <p>
-                  Your browser cannot display the PDF preview inline. Please use the buttons to
-                  download the CV or open it in a new tab.
-                </p>
-                <a class="btn btn-primary" href="assets/Nguyen_Trong_Bach_CV.pdf" target="_blank" rel="noopener noreferrer">Open CV</a>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <div class="timeline-head">
+                <h3>IT Intern &mdash; FUJILOGIC Technology Co., Ltd.</h3>
+                <span class="timeline-date">Oct 2025 &ndash; Present</span>
               </div>
-            </object>
-          </div>
-          <p class="cv-hint">PDF preview &mdash; for the best experience on mobile, tap <em>Open in New Tab</em>.</p>
+              <p class="timeline-sub">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Hanoi, Vietnam
+              </p>
+              <p>
+                Delivered front-line technical support for software configuration, troubleshooting,
+                routine maintenance, internal engineering workflows, environment setup, and
+                technical documentation.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <div class="timeline-head">
+                <h3>IT Intern &mdash; C+ Technology JSC</h3>
+                <span class="timeline-date">Feb 2025 &ndash; Aug 2025</span>
+              </div>
+              <p class="timeline-sub">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Hanoi, Vietnam
+              </p>
+              <p>
+                Supported IT operations, software deployment, environment configuration,
+                integration testing, issue reproduction and resolution, documentation, and team
+                communication in a professional software environment.
+              </p>
+            </div>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section class="section section-alt" id="contact">
-    <div class="container">
-      <p class="section-eyebrow">11 &mdash; Contact</p>
-      <h2 class="section-title">Get in Touch</h2>
+    <!-- Activities -->
+    <section class="section" id="activities" aria-labelledby="activities-title">
+      <div class="container">
+        <p class="section-eyebrow">09 &mdash; Activities</p>
+        <h2 class="section-title" id="activities-title">Activities</h2>
 
-      <div class="contact-grid">
-        <div class="contact-intro">
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <div class="timeline-head">
+                <h3>USTH Coders Club &mdash; Marketing Team (Content &amp; Design)</h3>
+                <span class="timeline-date">Oct 2023 &ndash; Jun 2025</span>
+              </div>
+              <p>
+                Produced promotional content and visual materials for programming-related
+                activities, completed internal coding workshop activities, and collaborated
+                closely with student organizers to support club operations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum Vitae -->
+    <section class="section section-alt" id="cv" aria-labelledby="cv-title">
+      <div class="container">
+        <p class="section-eyebrow">10 &mdash; Curriculum Vitae</p>
+        <h2 class="section-title" id="cv-title">View My CV</h2>
+
+        <div class="cv-grid">
+          <aside class="cv-side">
+            <h3>Curriculum Vitae</h3>
+            <p>
+              View my full CV directly in your browser, or download a copy for offline reference.
+              The CV covers my education, work experience, research projects, technical skills,
+              and selected coursework.
+            </p>
+
+            <ul class="cv-includes" aria-label="CV contents">
+              <li>Education &amp; GPA</li>
+              <li>Work experience</li>
+              <li>Research &amp; projects</li>
+              <li>Technical skills</li>
+              <li>Coursework highlights</li>
+              <li>Activities &amp; contact</li>
+            </ul>
+
+            <ul class="cv-meta">
+              <li><span>Owner</span><strong>Nguyen Trong Bach</strong></li>
+              <li><span>Focus</span><strong>Computer Vision &amp; Applied AI</strong></li>
+              <li><span>Format</span><strong>PDF</strong></li>
+              <li><span>Last updated</span><strong>April 2026</strong></li>
+            </ul>
+
+            <div class="cv-actions">
+              <a class="btn btn-primary" href="assets/Nguyen_Trong_Bach_CV.pdf" download>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                Download CV (PDF)
+              </a>
+              <a class="btn btn-ghost" href="assets/Nguyen_Trong_Bach_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+                Open in New Tab
+              </a>
+            </div>
+          </aside>
+
+          <div class="cv-viewer">
+            <div class="cv-viewer-frame">
+              <object data="assets/Nguyen_Trong_Bach_CV.pdf#view=FitH" type="application/pdf" aria-label="Nguyen Trong Bach CV preview">
+                <div class="cv-fallback">
+                  <p>
+                    Your browser cannot display the PDF preview inline. Please use the buttons to
+                    download the CV or open it in a new tab.
+                  </p>
+                  <a class="btn btn-primary" href="assets/Nguyen_Trong_Bach_CV.pdf" target="_blank" rel="noopener noreferrer">Open CV</a>
+                </div>
+              </object>
+            </div>
+            <p class="cv-hint">PDF preview &mdash; for the best experience on mobile, tap <em>Open in New Tab</em>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="section-eyebrow">11 &mdash; Contact</p>
+        <h2 class="section-title" id="contact-title">Let&rsquo;s Get in Touch</h2>
+
+        <div class="contact-cta">
+          <h3>Interested in collaboration, an internship, or research opportunities?</h3>
           <p>
-            I&rsquo;m actively looking for <strong>AI / Computer Vision internships</strong> and
-            <strong>research opportunities</strong>, and I&rsquo;m happy to discuss collaborations,
-            graduate study, or any interesting applied-AI project. The fastest way to reach me is by
-            email.
+            I&rsquo;m actively looking for AI / Computer Vision internships and research
+            collaborations. The fastest way to reach me is by email &mdash; I usually reply within
+            a day.
           </p>
-          <a class="btn btn-primary" href="mailto:Bachnt.23BI14057@usth.edu.vn?subject=Hello%20Bach%20%E2%80%94%20from%20your%20portfolio">
+          <a class="btn btn-primary btn-large" href="mailto:Bachnt.23BI14057@usth.edu.vn?subject=Hello%20Bach%20%E2%80%94%20from%20your%20portfolio">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6L12 13 2 6"/></svg>
             Send Me an Email
           </a>
         </div>
 
-        <ul class="contact-list">
+        <ul class="contact-channels">
           <li>
-            <span class="contact-label">Email</span>
-            <a href="mailto:Bachnt.23BI14057@usth.edu.vn">Bachnt.23BI14057@usth.edu.vn</a>
+            <a class="contact-channel" href="mailto:Bachnt.23BI14057@usth.edu.vn">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6L12 13 2 6"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">Email</span>
+                <span class="contact-channel-value">Bachnt.23BI14057@usth.edu.vn</span>
+              </span>
+            </a>
           </li>
+
           <li>
-            <span class="contact-label">Phone</span>
-            <a href="tel:+84976294171">(+84) 976 294 171</a>
+            <a class="contact-channel" href="tel:+84976294171">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">Phone</span>
+                <span class="contact-channel-value">(+84) 976 294 171</span>
+              </span>
+            </a>
           </li>
+
           <li>
-            <span class="contact-label">GitHub</span>
-            <a href="https://github.com/jecxk" target="_blank" rel="noopener noreferrer">github.com/jecxk</a>
+            <a class="contact-channel" href="https://github.com/jecxk" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.07c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">GitHub</span>
+                <span class="contact-channel-value">github.com/jecxk</span>
+              </span>
+            </a>
           </li>
+
           <li>
-            <span class="contact-label">LeetCode</span>
-            <a href="https://leetcode.com/u/jexck_/" target="_blank" rel="noopener noreferrer">leetcode.com/u/jexck_</a>
+            <a class="contact-channel" href="https://www.linkedin.com/in/nguyen-trong-bach/" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97V19h-3V8h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59V19z"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">LinkedIn</span>
+                <span class="contact-channel-value">linkedin.com/in/nguyen-trong-bach</span>
+              </span>
+            </a>
           </li>
+
           <li>
-            <span class="contact-label">LinkedIn</span>
-            <a href="https://www.linkedin.com/in/nguyen-trong-bach/" target="_blank" rel="noopener noreferrer">linkedin.com/in/nguyen-trong-bach</a>
+            <a class="contact-channel" href="https://leetcode.com/u/jexck_/" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">LeetCode</span>
+                <span class="contact-channel-value">leetcode.com/u/jexck_</span>
+              </span>
+            </a>
           </li>
+
           <li>
-            <span class="contact-label">Location</span>
-            <span>Hanoi, Vietnam</span>
+            <div class="contact-channel contact-channel-static">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="contact-channel-body">
+                <span class="contact-channel-label">Location</span>
+                <span class="contact-channel-value">Hanoi, Vietnam</span>
+              </span>
+            </div>
           </li>
         </ul>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
